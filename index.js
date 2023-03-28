@@ -89,13 +89,13 @@ ${license}
 * GitHub: ${git}
 * email: ${email}`;
 
- createNewFile(title, template);
+ createNewFile(template);
 }
 );
 
 // TODO: Create a function to write README file
-function createNewFile(fileName,data){
-    fs.writeFile(`./${fileName.toLowerCase()}.md`,data,(err)=>{
+function createNewFile(data){
+    fs.writeFile(`./README.md`,data,(err)=>{
 if(err){
     console.log(err)
 }
