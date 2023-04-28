@@ -8,30 +8,40 @@ inquirer.prompt(
         type: 'input',
         message: "what's the project title?",
         name: 'title',
+        // Harrison's read me
         validate: (value) => { if (value) { return true } else { return 'I need a value to continue' } },
     },
     {
         type: 'input',
         message: 'how do you install your app?',
         name: 'installation',
+        // inquirer
         validate: (value) => { if (value) { return true } else { return 'I need a value to continue' } },
     },
     {
         type: 'input',
         message: 'instructions to be follow?',
         name: 'instructions',
+        //First you can open up the file in VS code. Second open up the terminal, then change the directory
+        // into the root folder, and run ‘node index.js’. 
+        //Answer the prompts and view the preview of the ‘README.md’.
         validate: (value) => { if (value) { return true } else { return 'I need a value to continue' } },
     },
     {
         type: 'input',
         message: 'any credits?',
         name: 'credit',
+        // 3
         validate: (value) => { if (value) { return true } else { return 'I need a value to continue' } },
     },
     {
         type: 'input',
         message: 'how do you use your app?',
         name: 'usage',
+
+    // After the installation "inquirer": "^8.2.4" is complete, run the following code in the terminal ‘node inex.js’. 
+    // You then answer the prompts after it is done you should see a console log showing your answers to your prompts,
+    // a message then says ‘your readme has been generated’, you should then see it is called ‘README.md’.
         validate: (value) => { if (value) { return true } else { return 'I need a value to continue' } },
     },
     {
@@ -45,12 +55,14 @@ inquirer.prompt(
         type: 'input',
         message: 'GitHub username:',
         name: 'git',
+        //https://github.com/HarrisonZussman/Read_Me_GEN
         validate: (value) => { if (value) { return true } else { return 'I need a value to continue' } },
     },
     {
         type: 'input',
         message: 'email',
         name: 'email',
+        //harrisonfzussman@gmail.com
         validate: (value) => { if (value) { return true } else { return 'I need a value to continue' } },
     }
 ]
