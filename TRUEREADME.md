@@ -27,10 +27,10 @@ the MIT license
 * email: harrisonfzussman@gmail.com
 
 ## screen shoot
-![layout and new file](assets\layout_plus_creating_file.PNG)
-![open questions](assets\questions_fill_in_the_blinks.PNG)
-![multiple choice question](assets\questions_multiple_choice.PNG)
-![terminal](assets\terminal.PNG)
+![layout and new file](assets/layout_plus_creating_file.PNG)
+![open questions](assets/questions_fill_in_the_blinks.PNG)
+![multiple choice question](assets/questions_multiple_choice.PNG)
+![terminal](assets/terminal.PNG)
 
 ## video
-![video](assets\02.05.2023_16.36.10_REC.mp4)
+![video](assets/02.05.2023_16.36.10_REC.mp4)

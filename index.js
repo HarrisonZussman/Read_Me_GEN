@@ -107,7 +107,7 @@ ${license}
 
 // TODO: Create a function to write README file
 function createNewFile(data){
-    fs.writeFile(`./README.md`,data,(err)=>{
+    fs.writeFile(`./TRUEREADME.md`,data,(err)=>{
 if(err){
     console.log(err)
 }
